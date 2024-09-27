@@ -1,0 +1,130 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Software Engineer",
+      "type": "Full-Time",
+      "location": "New York, NY",
+      "description": "Develop and maintain web applications.",
+      "salary": "$80K - 90K",
+      "company": {
+        "name": "Tech Solutions",
+        "description": "Innovative software development company.",
+        "contactEmail": "info@techsolutions.com",
+        "contactPhone": "555-123-4567"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Marketing Specialist",
+      "type": "Part-Time",
+      "location": "Nevada, NV",
+      "description": "Create and execute marketing strategies.",
+      "salary": "$40K - 50K",
+      "company": {
+        "name": "Market Experts",
+        "description": "Leading marketing agency.",
+        "contactEmail": "hr@marketexperts.com",
+        "contactPhone": "555-234-5678"
+      }
+    },
+    {
+      "id": "3",
+      "title": "Data Analyst",
+      "type": "Remote",
+      "location": "Remote",
+      "description": "Analyze and interpret complex data sets.",
+      "salary": "$70K - 80K",
+      "company": {
+        "name": "Data Insights",
+        "description": "Data-driven consulting firm.",
+        "contactEmail": "careers@datainsights.com",
+        "contactPhone": "555-345-6789"
+      }
+    },
+    {
+      "id": "4",
+      "title": "Product Manager",
+      "type": "Full-Time",
+      "location": "Boston, MA",
+      "description": "Lead product development from concept to launch.",
+      "salary": "$100K - 120K",
+      "company": {
+        "name": "Innovate Tech",
+        "description": "Tech company focused on product innovation.",
+        "contactEmail": "jobs@innovatetech.com",
+        "contactPhone": "555-456-7890"
+      }
+    },
+    {
+      "id": "5",
+      "title": "Graphic Designer",
+      "type": "Internship",
+      "location": "Austin, TX",
+      "description": "Design visual content for marketing campaigns.",
+      "salary": "$20K - 30K",
+      "company": {
+        "name": "Creative Studios",
+        "description": "Design agency specializing in digital media.",
+        "contactEmail": "internships@creativestudios.com",
+        "contactPhone": "555-567-8901"
+      }
+    },
+    {
+      "id": "6",
+      "title": "Customer Support Representative",
+      "type": "Full-Time",
+      "location": "Chicago, IL",
+      "description": "Provide support to customers via phone and email.",
+      "salary": "$35K - 45K",
+      "company": {
+        "name": "Service First",
+        "description": "Customer service solutions provider.",
+        "contactEmail": "support@servicefirst.com",
+        "contactPhone": "555-678-9012"
+      }
+    },
+    {
+      "id": "7",
+      "title": "Sales Executive",
+      "type": "Part-Time",
+      "location": "Austin, TX",
+      "description": "Manage sales and customer relationships.",
+      "salary": "$60K - 70K",
+      "company": {
+        "name": "Sales Pro",
+        "description": "Sales consulting and training company.",
+        "contactEmail": "sales@salespro.com",
+        "contactPhone": "555-789-0123"
+      }
+    },
+    {
+      "id": "8",
+      "title": "HR Coordinator",
+      "type": "Full-Time",
+      "location": "Seattle, WA",
+      "description": "Assist with HR processes and employee onboarding.",
+      "salary": "$50K - 60K",
+      "company": {
+        "name": "People Matters",
+        "description": "Human resources consulting firm.",
+        "contactEmail": "hr@peoplematters.com",
+        "contactPhone": "555-890-1234"
+      }
+    },
+    {
+      "id": "9",
+      "title": "Content Writer",
+      "type": "Freelance",
+      "location": "Remote",
+      "description": "Write engaging content for blogs and websites.",
+      "salary": "$30K - 40K",
+      "company": {
+        "name": "Content",
+        "description": "Content creation and strategy firm.",
+        "contactEmail": "writer@contentcreators.com",
+        "contactPhone": "555-012-3456"
+      }
+    }
+  ]
+}

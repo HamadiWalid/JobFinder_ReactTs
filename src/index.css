@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Parent container should be flex and centered */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+}
+
+.header-input {
+  width: 100%;
+  height: 45px;
+  padding-left: 2.5rem;
+  font-size: 17px;
+  border-radius: 5px;
+  background-color: #f9fafc;
+  color: #3f434c;
+}
+
+/* Set the placeholder color */
+.header-input::placeholder {
+  color: #81848d;
+  opacity: 1;
+}
+
+/* Override PrimeReact's p-datatable-header class */
+.p-datatable-header {
+  background-color: transparent !important;
+}
+
+.fa-search {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #81848d;
+  pointer-events: none;
+}
+
+/* Set the header background color of DataTable columns */
+.p-datatable-thead > tr > th {
+  background-color: #f9fafc;
+  border-top: 1px solid #dddee2;
+  border-bottom: 1px solid #dddee2;
+  color: #3f434c;
+  font-size: 15px;
+  padding: 5px;
+}
+
+/* Optional: Style the text in the headers */
+.p-datatable-thead > tr > th .p-column-title {
+  font-weight: 600;
+}
+
+/* Make DataTable rows bold */
+.p-datatable-tbody > tr > td {
+  font-weight: bold;
+  color: #3f434c;
+}
+
+/* Custom styles for PrimeReact pagination */
+.p-paginator .p-paginator-page.p-highlight {
+  background-color: #1c1c1d;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.p-paginator .p-paginator-page:hover {
+  background-color: #1c1c1d;
+  color: white;
+}
